@@ -1,0 +1,92 @@
+
+General Questions:
+
+1. Can you briefly describe your academic project?  
+   My project is "Sunshine Home Décor Application," a C#.NET desktop-based application designed to automate the overall shop management process. It helps in product management, pricing, billing, and generating reports for business analysis.
+
+2. What was the objective of your project?  
+   The main objective was to digitalize the shop’s operations, making it easier to manage product inventory, staff, suppliers, billing, and reporting efficiently while reducing manual work.
+
+3. How did you choose this project?  
+   I wanted to build a real-world business application that helps small and medium-sized businesses manage their daily operations smoothly. Retail and home décor shops often struggle with inventory and billing, so this project provides an efficient computerized solution.
+
+4. What technologies/tools did you use?  
+   - Frontend: C#.NET (Windows Forms)  
+   - Backend: Microsoft SQL Server  
+   - Reporting: Crystal Reports  
+   - Development Tool: Visual Studio  
+
+5. What was your role in the project?  
+   I was responsible for backend database design, coding the business logic, and integrating Crystal Reports for generating shop-related reports.
+
+6. Did you work individually or in a team?  
+   I worked with a team of three members. My role focused on database management and report generation, while my teammates handled UI design and testing.
+
+---
+
+Technical Questions:
+
+7. What challenges did you face during development, and how did you overcome them?  
+   - Data Handling: Managing large amounts of product and billing data was challenging. We solved it by using optimized queries and indexing in SQL Server.  
+   - Dynamic Pricing Management: We used stored procedures to update and manage product prices dynamically.  
+   - Report Generation: Formatting reports in Crystal Reports took time, but we resolved it by using grouping and parameterized filters.
+
+8. How does your project work? Can you explain the architecture?  
+   - The project follows a three-tier architecture:  
+     1. Presentation Layer: User interface built in C#.NET Windows Forms  
+     2. Business Logic Layer: Contains C# classes for handling shop operations  
+     3. Data Access Layer: Manages database interactions using Microsoft SQL Server  
+   - The application allows adding/modifying products, billing customers, and generating reports on sales, staff salaries, and distributors.
+
+9. What programming languages and frameworks did you use?  
+   - C#.NET for the desktop application  
+   - Microsoft SQL Server for database management  
+   - Crystal Reports for generating reports  
+
+10. How did you ensure security and performance in your project?  
+    - Implemented role-based authentication to restrict access to different users.  
+    - Used stored procedures and indexing to speed up database queries.  
+    - Applied data validation at both the frontend and backend to prevent errors.  
+
+11. Did you implement any algorithms? If so, can you explain them?  
+    - Used an inventory update algorithm to manage real-time product stock updates.  
+    - Implemented dynamic pricing logic to adjust prices based on supplier costs.  
+
+12. Did you use any database? If yes, which one and why?  
+    Yes, we used Microsoft SQL Server because it is scalable, secure, and supports stored procedures and transactions, which are essential for handling billing and product data.
+
+13. What API integrations (if any) did you use?  
+    - Integrated Crystal Reports API for generating sales and billing reports.  
+    - Used SMTP API to send automated customer invoices via email.  
+
+14. How did you handle debugging and testing?  
+    - Used Visual Studio’s debugging tools to find and fix errors.  
+    - Performed unit testing for individual modules.  
+    - Conducted database load testing to check performance under high data load.  
+
+---
+
+Project Impact & Improvements:
+
+15. What is the real-world application of your project?  
+    It can be used by small and medium-sized home décor shops to manage products, suppliers, customer billing, and staff payroll efficiently.
+
+16. If you had more time, what improvements would you make?  
+    - Add a barcode scanning system for faster product entry.  
+    - Develop a web-based version for remote shop management.  
+    - Implement AI-based sales forecasting to predict demand.  
+
+17. What feedback did you receive from your professors or peers?  
+    - Professors appreciated the well-structured database design and user-friendly interface.  
+    - Some suggested adding a mobile app version for better accessibility.  
+
+18. How does your project differ from existing solutions?  
+    - Unlike traditional billing software, our system provides dynamic pricing, supplier tracking, and detailed business reports.  
+    - It supports custom billing options and role-based access.  
+
+19. Did you publish your project on GitHub or any platform?  
+    Yes, I have uploaded a basic version on GitHub (excluding confidential shop data).  
+
+20. Have you considered converting this project into a startup or a product?  
+    Yes, I believe it can be turned into a commercial POS (Point of Sale) system for retail stores.  
+

@@ -1,0 +1,99 @@
+
+
+ General Questions:
+
+1. Can you briefly describe your academic project?  
+   My project is "Online Agro Product Shop," a web-based e-commerce platform that allows users to buy plants, seeds, fertilizers, and pots online. It provides detailed plant care guidance and helps farmers sell their products at fair prices.
+
+2. What was the objective of your project?  
+   The main goal was to create an online platform for agro products, eliminating the need for customers to visit nurseries physically. It also helps farmers connect directly with buyers, get real-time market prices, and manage sales efficiently.
+
+3. How did you choose this project?  
+   Agriculture is a crucial sector, and many farmers struggle to sell their products at fair prices. Customers also lack proper information about plant care. This project aims to bridge that gap by providing an online marketplace.
+
+4. What technologies/tools did you use?  
+   - Frontend: HTML, CSS, JavaScript, React.js  
+   - Backend: C#.NET (ASP.NET MVC or Web API)  
+   - Database: Microsoft SQL Server  
+   - Hosting: IIS (Internet Information Services) or cloud hosting  
+   - Payment Integration: Razorpay/PayPal for online transactions  
+
+5. What was your role in the project?  
+   I was responsible for backend development, including database management, API development, and payment gateway integration.
+
+6. Did you work individually or in a team?  
+   I worked in a team of four. My focus was on backend logic and database management, while my teammates worked on UI design, frontend development, and testing.
+
+---
+
+ Technical Questions:
+
+7. How does your project work? Can you explain the architecture?  
+   - The project follows the MVC (Model-View-Controller) architecture:  
+     1. Frontend (View): A user-friendly web interface for browsing agro products.  
+     2. Backend (Controller): Handles business logic like order management, authentication, and pricing.  
+     3. Database (Model): Stores user details, product inventory, orders, and payments.  
+   - Users can browse products, add them to the cart, and purchase them online.
+
+8. What features does your project have?  
+   - E-commerce functionality: Browse, add to cart, and purchase agro products.  
+   - User authentication: Separate login for farmers, customers, and admin.  
+   - Order tracking: Users can track orders in real-time.  
+   - Payment integration: Supports online payments and cash on delivery.  
+   - Product recommendations: Based on previous purchases.  
+   - Market price updates: Farmers get real-time rates of agricultural products.  
+
+9. Did you implement any security measures?  
+   - Used JWT authentication for secure login.  
+   - Implemented SQL injection prevention with parameterized queries.  
+   - Enabled SSL encryption for safe online transactions.  
+
+10. How did you manage product inventory?  
+    - Implemented real-time stock updates after each purchase.  
+    - Created a restock notification system for low inventory alerts.  
+
+11. Did you integrate third-party APIs?  
+    - Yes, we used payment gateway APIs (Razorpay/PayPal) for transactions.  
+    - Integrated Google Maps API for delivery tracking.  
+
+12. What challenges did you face during development, and how did you overcome them?  
+    - Challenge: Handling multiple users (farmers, customers, and admin)  
+      - Solution: Used role-based authentication to restrict access levels.  
+    - Challenge: Ensuring secure online transactions  
+      - Solution: Integrated SSL encryption and payment gateway security.  
+
+13. How did you test and debug your project?  
+    - Used Postman for API testing.  
+    - Conducted unit testing with NUnit for backend functionality.  
+    - Performed load testing to ensure smooth performance under heavy traffic.  
+
+---
+
+ Project Impact & Future Scope:
+
+14. What is the real-world application of your project?  
+    It can be used by nurseries, farmers, and agro businesses to sell plants, seeds, and fertilizers online. It also helps customers buy products with proper information.
+
+15. How does your project benefit farmers?  
+    - Farmers can sell directly to customers, eliminating middlemen.  
+    - They get real-time market price updates to ensure fair pricing.  
+    - The platform provides payment security and digital transactions.  
+
+16. If you had more time, what improvements would you make?  
+    - Add AI-based crop recommendations for farmers.  
+    - Implement a mobile app version for better accessibility.  
+    - Introduce subscription-based plant care services for customers.  
+
+17. What feedback did you receive from your professors or peers?  
+    - Professors appreciated the direct farmer-to-customer model.  
+    - Some suggested adding a forum for farmers to discuss agricultural practices.  
+
+18. How does your project differ from existing e-commerce platforms?  
+    - Unlike general e-commerce platforms, this system is focused on agriculture.  
+    - It provides detailed plant care guidance and market price tracking.  
+
+19. Did you publish your project on GitHub or any platform?  
+    Yes, I uploaded the code on GitHub for future enhancements.  
+
+20. Would you consider turning this project into a startup?  
+    Yes, it has strong potential for becoming a dedicated agro e-commerce platform.  

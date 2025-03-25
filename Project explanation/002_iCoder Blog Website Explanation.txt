@@ -1,0 +1,87 @@
+
+
+ General Questions:
+
+1. Can you briefly describe your academic project?  
+   My project is "iCoder Blog Website," a responsive blog website built using Bootstrap, HTML, CSS, and JavaScript. It includes a user-friendly UI, interactive components, and a structured blog layout. The website is hosted on Netlify.
+
+2. What was the objective of your project?  
+   The main goal was to develop a modern, responsive blog platform where users can explore blogs, navigate easily, and interact with UI components. It also serves as a demonstration of Bootstrap’s features and custom styling.
+
+3. How did you choose this project?  
+   I wanted to learn Bootstrap and create a responsive website. A blog website was a great choice to practice UI components, form handling, and hosting a project online.
+
+4. What technologies/tools did you use?  
+   - Frontend: HTML, CSS, Bootstrap, JavaScript  
+   - Code Editor: VS Code  
+   - Hosting: Netlify  
+
+5. What was your role in the project?  
+   I designed and developed the frontend, UI components, and website structure.
+
+6. Did you work individually or in a team?  
+   I worked individually on this project.
+
+---
+
+ Technical Questions:
+
+7. How does your project work? Can you explain the architecture?  
+   - The project follows a static website architecture with:  
+     1. Navigation Bar (NavBar) – For easy site navigation.  
+     2. Home Page – Displays featured blogs.  
+     3. Blog Section – Showcases various blog posts in a card layout.  
+     4. Modals (Login/Signup) – Interactive user authentication UI.  
+     5. Grid System – Ensures responsiveness on different screen sizes.  
+
+8. What features does your project have?  
+   - Responsive UI with Bootstrap  
+   - Navbar, Breadcrumbs, Alerts, and Buttons  
+   - Cards for blog previews  
+   - Carousel for featured content  
+   - Modals for Login & Signup  
+   - Deployed on Netlify for online access  
+
+9. Did you implement any security measures?  
+   Since it is a static website, there is no backend authentication. However, modals simulate login and signup functionality.
+
+10. How did you ensure the website is responsive?  
+    - Used Bootstrap’s Grid System for automatic column adjustments.  
+    - Applied media queries to fine-tune layouts for different screen sizes.  
+
+11. Did you integrate third-party libraries?  
+    - Used Bootstrap’s built-in components for UI elements.  
+
+12. What challenges did you face during development, and how did you overcome them?  
+    - Challenge: Aligning components properly.  
+      - Solution: Used Bootstrap Grid System and Flexbox for layout adjustments.  
+    - Challenge: Hosting the website online.  
+      - Solution: Deployed using Netlify, which provides free hosting.  
+
+13. How did you test and debug your project?  
+    - Used Chrome Developer Tools to check responsiveness and fix layout issues.  
+    - Conducted cross-browser testing for compatibility.  
+
+---
+
+ Project Impact & Future Scope:
+
+14. What is the real-world application of your project?  
+    - Can be used as a personal blog website.  
+    - Serves as a template for content creators to share articles.  
+
+15. If you had more time, what improvements would you make?  
+    - Add a backend system (Node.js, Firebase) for actual blog posting.  
+    - Implement user authentication for personalized blog posts.  
+
+16. What feedback did you receive from your professors or peers?  
+    - They appreciated the clean UI and responsiveness.  
+    - Suggested adding comment sections for blog interaction.  
+
+17. Did you publish your project online?  
+    - Yes, it is hosted on Netlify: [iCoder Blog Website](https://icoderwebsite-prachi.netlify.app/).  
+
+18. Would you consider turning this project into a full-fledged application?  
+    - Yes, with backend integration, authentication, and CMS features.  
+
+---

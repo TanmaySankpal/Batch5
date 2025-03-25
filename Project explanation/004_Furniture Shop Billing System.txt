@@ -1,0 +1,92 @@
+
+
+ General Questions:
+
+1. Can you briefly describe your academic project?  
+   My project is "Furniture Shop Billing System," a C#.NET desktop application that helps furniture stores automate their billing and invoicing process. It manages customer purchases, payment transactions, inventory tracking, and sales reports efficiently.
+
+2. What was the objective of your project?  
+   The main goal was to digitize the manual billing process, reduce errors, and provide a fast and user-friendly system for managing invoices, inventory, and payments.
+
+3. How did you choose this project?  
+   Furniture stores often face challenges in handling billing, tracking inventory, and managing customer data manually. I wanted to create a simple yet effective system that automates these tasks.
+
+4. What technologies/tools did you use?  
+   - Frontend: C#.NET (Windows Forms)  
+   - Backend: Microsoft SQL Server  
+   - Reporting: Crystal Reports  
+   - Development Tool: Visual Studio  
+
+5. What was your role in the project?  
+   I worked as the lead developer, focusing on database design, billing logic, and report generation.
+
+6. Did you work individually or in a team?  
+   I worked in a team of three. My role was backend development and data management, while my teammates worked on UI design and testing.
+
+---
+
+ Technical Questions:
+
+7. What challenges did you face during development, and how did you overcome them?  
+   - Real-time calculations: Ensuring accurate tax and discount calculations was a challenge. We solved this by using dynamic formula-based calculations in C#.  
+   - Inventory management: We implemented an auto-update feature to track stock levels after each sale.  
+   - Report generation: Formatting reports was complex, but we used Crystal Reports with filtering options to make them user-friendly.
+
+8. How does your project work? Can you explain the architecture?  
+   - It follows a three-tier architecture:  
+     1. Presentation Layer: User interface built in C#.NET Windows Forms  
+     2. Business Logic Layer: Handles billing, inventory updates, and calculations  
+     3. Data Access Layer: Stores all data in Microsoft SQL Server  
+   - The system allows adding/modifying furniture items, billing customers, applying discounts, and tracking payments.
+
+9. What programming languages and frameworks did you use?  
+   - C#.NET for desktop application development  
+   - Microsoft SQL Server for database management  
+   - Crystal Reports for generating sales and billing reports  
+
+10. How did you ensure security and performance in your project?  
+    - Used role-based authentication for data security.  
+    - Optimized database queries using stored procedures and indexing.  
+    - Applied data validation at both frontend and backend to prevent errors.  
+
+11. Did you implement any algorithms? If so, can you explain them?  
+    - Tax and discount calculation algorithm for accurate price adjustments.  
+    - Inventory tracking algorithm to automatically update stock after each sale.  
+
+12. Did you use any database? If yes, which one and why?  
+    Yes, we used Microsoft SQL Server because it supports large-scale data management, stored procedures, and secure transactions.
+
+13. What API integrations (if any) did you use?  
+    - Integrated Crystal Reports API for generating sales invoices.  
+    - Used payment gateway API for handling card transactions.  
+
+14. How did you handle debugging and testing?  
+    - Used Visual Studio debugging tools to fix errors.  
+    - Conducted unit testing to ensure each module worked correctly.  
+    - Performed load testing to check system performance under heavy usage.  
+
+---
+
+ Project Impact & Improvements:
+
+15. What is the real-world application of your project?  
+    It can be used by furniture stores and retail shops to manage billing, inventory, and customer transactions efficiently.
+
+16. If you had more time, what improvements would you make?  
+    - Add barcode scanning for faster billing.  
+    - Develop a web-based version for online store integration.  
+    - Implement customer loyalty programs with reward points.  
+
+17. What feedback did you receive from your professors or peers?  
+    - My professors appreciated the detailed inventory tracking and reporting features.  
+    - Some suggested adding mobile app support for shop owners.  
+
+18. How does your project differ from existing solutions?  
+    - Unlike generic billing software, our system is specifically designed for furniture shops, with features like stock tracking and customizable invoices.  
+
+19. Did you publish your project on GitHub or any platform?  
+    Yes, I have uploaded a simplified version on GitHub (excluding business-sensitive data).  
+
+20. Have you considered converting this project into a startup or a product?  
+    Yes, this system has the potential to be converted into a full-fledged POS system for furniture businesses.  
+

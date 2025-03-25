@@ -1,0 +1,22 @@
+
+  
+1. Can you briefly describe your academic project?  
+2. What was the objective of your project?  
+3. How did you choose this project?  
+4. What technologies/tools did you use?  
+5. What was your role in the project?  
+6. Did you work individually or in a team?  
+7. What challenges did you face during development, and how did you overcome them?  
+8. How does your project work? Can you explain the architecture?  
+9. What programming languages and frameworks did you use?  
+10. How did you ensure security and performance in your project?  
+11. Did you implement any algorithms? If so, can you explain them?  
+12. Did you use any database? If yes, which one and why?  
+13. What API integrations (if any) did you use?  
+14. How did you handle debugging and testing?    
+15. What is the real-world application of your project?  
+16. If you had more time, what improvements would you make?  
+17. What feedback did you receive from your professors or peers?  
+18. How does your project differ from existing solutions?  
+19. Did you publish your project on GitHub or any platform?  
+20. Have you considered converting this project into a startup or a product?  

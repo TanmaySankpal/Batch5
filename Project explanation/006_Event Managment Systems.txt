@@ -1,0 +1,94 @@
+
+ General Questions:
+
+1. Can you briefly describe your academic project?  
+   My project is an Event Management System built using C#.NET and MSSQL Server, with Crystal Reports for generating event reports and SAP integration for resource management. It helps users plan and manage events like weddings, conferences, and corporate meetings.
+
+2. What was the objective of your project?  
+   The goal was to create a simple and efficient event management tool where users can book venues, manage guests, handle budgets, and generate event reports.
+
+3. How did you choose this project?  
+   Event planning is a common problem, and many people struggle with organizing and tracking event details. I wanted to create a solution that simplifies event management using technology.
+
+4. What technologies/tools did you use?  
+   - Frontend: C#.NET (Windows Forms)  
+   - Backend: MSSQL Server  
+   - Reporting: Crystal Reports  
+   - Integration: SAP SDK (for resource tracking)  
+   - Development Tools: Visual Studio  
+
+5. What was your role in the project?  
+   I was the lead developer and worked on database design, UI development, SAP integration, and report generation.
+
+6. Did you work individually or in a team?  
+   I worked with a team of 3 members. I handled backend and integration, while others worked on design and testing.
+
+---
+
+ Technical Questions:
+
+7. What challenges did you face during development, and how did you overcome them?  
+   - SAP Integration: It was difficult at first, but I learned to use SAP Business One SDK to connect it with our system.  
+   - Report Formatting: Some reports were not displaying correctly, so I fixed them by using proper formatting and filters.  
+   - Database Performance: Queries were slow, so I optimized them using stored procedures and indexing.
+
+8. How does your project work? Can you explain the architecture?  
+   - It has a three-layer architecture:  
+     1. Presentation Layer (C#.NET Windows Forms)  
+     2. Business Logic Layer (C# classes for event processing)  
+     3. Data Access Layer (MSSQL Server for data storage)  
+   - Users add event details, manage bookings, generate reports, and the system syncs data with SAP.
+
+9. What programming languages and frameworks did you use?  
+   - C#.NET for the application  
+   - MSSQL Server for database  
+   - SAP SDK for resource tracking  
+   - Crystal Reports for generating event reports  
+
+10. How did you ensure security and performance in your project?  
+    - Used login authentication to prevent unauthorized access.  
+    - Used parameterized queries to protect against SQL injection.  
+    - Optimized queries with stored procedures for better performance.  
+
+11. Did you implement any algorithms? If so, can you explain them?  
+    - Used a seat allocation algorithm to manage guest seating efficiently.  
+    - Used an event budget calculator to help users estimate costs.  
+
+12. Did you use any database? If yes, which one and why?  
+    Yes, I used MSSQL Server because it is reliable, scalable, and supports stored procedures.
+
+13. What API integrations (if any) did you use?  
+    - SAP Business One SDK to track event resources.  
+    - Crystal Reports API to generate reports dynamically.  
+
+14. How did you handle debugging and testing?  
+    - Used breakpoints in Visual Studio to debug.  
+    - Performed unit testing to check business logic.  
+    - Conducted user testing to get feedback on usability.  
+
+---
+
+ Project Impact & Improvements:
+
+15. What is the real-world application of your project?  
+    It can be used by event planners, wedding organizers, and corporate companies to manage events, track expenses, and generate reports.
+
+16. If you had more time, what improvements would you make?  
+    - Add online booking to allow clients to book venues from a website.  
+    - Improve UI design using WPF for a better experience.  
+    - Add a mobile app version for on-the-go access.  
+
+17. What feedback did you receive from your professors or peers?  
+    - My professors appreciated the real-world application and SAP integration.  
+    - Some suggested adding a mobile version for better usability.  
+
+18. How does your project differ from existing solutions?  
+    - It is custom-built for event management with SAP integration.  
+    - Provides detailed financial and booking reports with Crystal Reports.  
+    - Supports real-time seat and venue tracking.  
+
+19. Did you publish your project on GitHub or any platform?  
+    Yes, I uploaded a simplified version on GitHub (without SAP-sensitive data). I can share the link if needed.
+
+20. Have you considered converting this project into a startup or a product?  
+    Yes, I believe it can be converted into a SaaS-based event management software for businesses.  
